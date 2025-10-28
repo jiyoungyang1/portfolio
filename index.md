@@ -5,7 +5,7 @@ title: Home
 
 # Ji-Young Yang
 
-**PhD Candidate | Computational Drug Discovery | Data Science**
+**PhD Candidate in Analytical Chemistry**
 
 Ulm, Germany
 jiyoung.jane.yang@gmail.com
@@ -13,62 +13,111 @@ jiyoung.jane.yang@gmail.com
 
 ---
 
-## Welcome to My Portfolio
+## Summary
 
-I am a PhD candidate specializing in **advanced biological data analysis** and **molecular dynamics simulations**, with a focus on protein characterization and drug formulation development. My research combines analytical chemistry, computational techniques, and machine learning to drive innovation in pharmaceutical research.
-
-### Key Expertise
-
-**Molecular Dynamics Simulations**
-Protein-cosolute interactions, antibody stability studies using GROMACS, NAMD, and OpenMM
-
-**Advanced Spectroscopic Data Analysis**
-ML-driven spectral deconvolution, automated high-throughput workflows, protein characterization
-
-**AI-Driven Analytics**
-Machine learning for drug formulation, neural networks for molecular property prediction
-
-**Data Science in Pharma**
-Patent analytics, clinical data analysis, drug discovery optimization
+PhD candidate with expertise in advanced biological data analysis and molecular dynamics (MD) simulations, focusing on protein characterization and drug formulation development. My PhD emphasized protein-cosolute interactions using analytical chemistry and computational techniques. With a global academic and professional journey spanning South Korea and Germany, I bring interdisciplinary skills and industry-academic experience to drive innovation in pharmaceutical research and development.
 
 ---
 
-## Current Position
+## Education
 
-**PhD Researcher**  
-Boehringer Ingelheim & University of Ulm (2020 - Present)
+### PhD in Analytical Chemistry
+**University Ulm**
+11/2020 - Present | Ulm, Germany
 
-Industrial PhD in Analytical Development Biologicals, focusing on:
-- Machine Learning models for antibody and excipient characterization
-- Automated liquid handling and data analysis pipelines
-- Molecular Dynamics simulations of protein-cosolute interactions
-- Drug formulation stability and optimization
+Industrial PhD research in Analytical Development Biologicals in collaboration with Boehringer Ingelheim
 
----
+### MSc in Bioinformatics/Molecular Biology
+**University of Applied Sciences Mittweida**
+11/2018 - 11/2020 | Mittweida, Germany
 
-## Recent Highlights
+### BEng in Bioengineering
+**Incheon National University**
+03/2012 - 08/2017 | Incheon, South Korea
 
-**5 Peer-Reviewed Publications** in leading journals (Phys. Chem. Chem. Phys., J. Phys. Chem. B, ACS Omega)
-
-**BI OPEN Global Data Science Challenge Award** (2021) - Engagement Individual Award
-
-**International Presentations** - Discover BMB (Seattle, 2023), DPG Conference (Dresden, 2023)
-
-**Global Exchange Programs** - Data Science (Boehringer Ingelheim, 2024), Biochemistry & Business (University Hohenheim, 2016-2017)
+**Exchange Programs:**
+- Biochemistry (German) - University of Hohenheim, 2016-2017
+- Business Management (English) - University of Hohenheim, 2016-2017
 
 ---
 
-## Featured Projects
+## Work Experience
 
-### [Molecular Dynamics Simulations](/research#md-simulations)
-Investigating protein-cosolute interactions and antibody stability using computational approaches
+### PhD Thesis
+**Boehringer Ingelheim**
+11/2020 – 07/2024 | Biberach, Germany
 
-### [Spectroscopic Data Analysis](/research#spectroscopy)
-ML-powered automated workflows for protein characterization and formulation development
+Industrial PhD research in Analytical Development Biologicals, Early Stage Analytics Laboratory in collaboration with University Ulm
 
-### [Patent Analytics](/research#patent-analytics)
-AI and data science for global patent search and pharmaceutical innovation
+- Developed Machine Learning models for spectral deconvolution and pattern recognition in antibodies and excipients
+- Set up automated liquid handling and data analysis process with python for protein characterization studies
+- Studies of antibody interactions with salt ions and cosolutes using Molecular Dynamics (MD) Simulations
+- Designed protocols for antibody stress testing, including forced degradation and enzymatic digestion
+
+### Master Thesis & Internship
+**Boehringer Ingelheim**
+03/2020 – 10/2020 | Biberach, Germany
+
+- Developed ML model for pattern recognition of surfactant degradation profiles in drug formulations, enabling classification and clustering of degraded lipid chains from UPLC-CAD data
+- Developed neural network model to predict solvation energy of electrolytes based on their atomistic properties based on conceptual Density Functional Theory principles
+
+### Trading Specialist for pure chemicals
+**Samchun Pure Chemical Co. Ltd**
+03/2018 – 09/2018 | Seoul, South Korea
+
+- Managed import/export control across Europe, the USA, Japan, and India as the primary customer contact
+- Optimized logistics by coordinating shipments and negotiating freight costs
+- Adjusted pricing strategies to align with market conditions
+- Ensured customs clearance and compliance with international regulations, including K-REACH
+
+### Co-Lead National Programmes
+**Nucleate Germany**
+03/2023 - 01/2024
+
+- Early member contributing to the development of Germany into a Core Chapter of the global nonprofit organisation Nucleate
+- Supported future biotech entrepreneurs by recruiting experts from biotech, intellectual property, and business development for the "Activator" mentoring program
 
 ---
 
-[Explore My Research →](/research) | [View Publications →](/publications) | [Get in Touch →](/contact)
+## Projects
+
+### Advanced Protein Characterization and Investigation of Molecular Interaction
+
+Applied analytical chemistry and MD simulations to uncover mechanistic insights of protein-cosolute interactions, supporting data-driven drug formulation strategies.
+
+### Application of AI-Driven Analytics
+
+Developed ML models for spectral protein characterisation, and surfactant degradation profiling, improving formulation stability. Built neural networks for solvation energy prediction using conceptual DFT.
+
+### Automated High-Throughput Workflows
+
+Designed Python-based liquid handling and data analysis pipelines, optimizing experimental efficiency.
+
+---
+
+## Publications
+
+### Peer-reviewed published full articles
+
+1. **An Expression for the Diffusion Interaction Parameter for Pharmaceutical Formulations: Insights from Kirkwood-Buff Theory**
+   Ji Young Yang, Jens Smiatek, Phys. Chem. Chem. Phys., 2025
+
+2. **Multidomain Protein−Urea Interactions: Differences in Binding Behavior Lead to Different Destabilization Tendencies for Monoclonal Antibodies**
+   Ji Young Yang, Oliver Burkert, Boris Mizaikoff, Jens Smiatek, J. Phys. Chem. B 2024, 128, 42, 10408–10416
+
+3. **Impact of Urea on Monoclonal Antibodies: Multiple Destabilization and Aggregation Effects for Therapeutic Immunoglobulin G Proteins**
+   Ji Young Yang, Oliver Burkert, Boris Mizaikoff, Jens Smiatek, ACS Omega 2024, 9, 5, 5517–5522
+
+4. **Combination of Explainable Machine Learning and Conceptual Density Functional Theory: Applications for the Study of Key Solvation Mechanisms**
+   I-Ting Ho, Milena Matysik, Liliana Montano Herrera, Jiyoung Yang, Ralph Joachim Guderlei, Michael Laussegger, Bernhard Schrantz, Regine Hammer, Ramón Alain Miranda-Quintana and Jens Smiatek, Phys. Chem. Chem. Phys., 2022,24, 28314-28324
+
+5. **Artificial neural networks for the prediction of solvation energies based on experimental and computational data**
+   Jiyoung Yang, Matthias J. Knape, Oliver Burkert, Virginia Mazzini, Alexander Jung, Vincent S. J. Craig, Ramón Alain Miranda-Quintana, Erich Bluhmki and Jens Smiatek. Phys. Chem. Chem. Phys., 2020,22, 24359-24364
+
+### Under Review
+
+1. **Role of L-Arginine on multi-domain protein IgG conformational multi-states change and aggregation during thermal denaturation**
+   Ji Young Yang, Oliver Burkert, Boris Mizaikoff, Jens Smiatek
+
+2. **Computational Simulations of Antibodies in Solution: Study of Physicochemical Properties and Interactions with Co-Solutes**
+   Ji Young Yang, Boris Mizaikoff, Jens Smiatek [Invited Review] Applied Physics Review, AIP Publishing
