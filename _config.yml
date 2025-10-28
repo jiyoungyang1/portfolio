@@ -32,9 +32,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate-v2
-  - jekyll-scholar
-  - jekyll-twitter-plugin
+  - jekyll-paginate
   - jekyll-remote-theme
   - jemoji
 
@@ -76,15 +74,15 @@ permalink: /blog/:year/:title/
 paginate: 5
 paginate_path: /blog/page:num/
 
-# Bibliography
-scholar:
-  style: apa
-  locale: en
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  replace_strings: true
-  bibtex_filters:
+# Bibliography (disabled for GitHub Pages compatibility)
+# scholar:
+#   style: apa
+#   locale: en
+#   source: /_bibliography/
+#   bibliography: papers.bib
+#   bibliography_template: bib
+#   replace_strings: true
+#   bibtex_filters:
 
 # Navigation
 navbar_fixed: true
