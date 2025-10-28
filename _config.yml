@@ -33,8 +33,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate-v2
-  - jekyll-scholar
-  - jekyll-twitter-plugin
   - jekyll-remote-theme
   - jemoji
 
@@ -71,19 +69,25 @@ markdown: kramdown
 highlighter: rouge
 permalink: /blog/:year/:title/
 
-# Pagination
-paginate: 5
-paginate_path: /blog/page:num/
+# Pagination - jekyll-paginate-v2 configuration
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
-# Bibliography
-scholar:
-  style: apa
-  locale: en
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  replace_strings: true
-  bibtex_filters:
+# Bibliography (commented out - using manual publications.md instead)
+# scholar:
+#   style: apa
+#   locale: en
+#   source: /_bibliography/
+#   bibliography: papers.bib
+#   bibliography_template: bib
+#   replace_strings: true
+#   bibtex_filters:
 
 # Navigation
 navbar_fixed: true
