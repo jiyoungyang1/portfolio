@@ -1,33 +1,100 @@
-# Site settings
+# Site settings - AL-FOLIO THEME VERSION
+# This is an alternative configuration using the popular al-folio theme
+# To use this, rename this file to _config.yml (backup the original first)
+
 title: Ji-Young Yang
+first_name: Ji-Young
+middle_name: 
+last_name: Yang
 email: jiyoung.jane.yang@gmail.com
 description: >-
-  PhD candidate specializing in molecular dynamics simulations,
+  PhD candidate specializing in molecular dynamics simulations, 
   advanced spectroscopic data analysis, and AI-driven drug discovery
+  
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+keywords: computational chemistry, molecular dynamics, machine learning, data science, drug discovery, bioinformatics
+
+lang: en
+icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://jiyoungyang1.github.io
 baseurl: /portfolio
+last_updated: true # set to true if you want to display last updated in the footer
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
-# Theme - Using GitHub Pages supported theme
-theme: minima
+# Theme configuration - Using remote theme
+remote_theme: alshedivat/al-folio
 
-# Plugins (GitHub Pages compatible only)
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate-v2
+  - jekyll-scholar
+  - jekyll-twitter-plugin
+  - jekyll-remote-theme
+  - jemoji
 
 # Author information
 author:
   name: Ji-Young Yang
-  email: jiyoung.jane.yang@gmail.com
-
-# Social links
+  position: PhD Candidate
+  institution: University of Ulm & Boehringer Ingelheim
+  bio: Computational drug discovery | Molecular dynamics | Data science
+  location: Ulm, Germany
+  
+# Social integration
 github_username: jiyoungyang1
 linkedin_username: ji-young-y-28a828142
+scholar_userid: 87iinq0AAAAJ
 
-# Build settings
+# Blog settings
+blog_name: Research Blog # Optional
+blog_description: Insights on computational chemistry and data science
+
+# Collections
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Jekyll settings
 markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:title/
+
+# Pagination
+paginate: 5
+paginate_path: /blog/page:num/
+
+# Bibliography
+scholar:
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  replace_strings: true
+  bibtex_filters:
+
+# Navigation
+navbar_fixed: true
+footer_fixed: true
+
+# Additional settings
+enable_darkmode: true
+enable_navbar_social: true
+enable_project_categories: true
+enable_medium_zoom: true
+enable_progressbar: true
 
 # Exclude from processing
 exclude:
@@ -38,13 +105,3 @@ exclude:
   - .sass-cache
   - .jekyll-cache
   - gemfiles
-  - README.md
-  - SETUP_GUIDE.md
-  - QUICK_START.md
-  - START_HERE.md
-  - PROJECT_SUMMARY.md
-  - FILE_STRUCTURE.md
-  - THEME_OPTIONS.md
-  - AL_FOLIO_SETUP.md
-  - AGENTS.md
-  - preview.html
