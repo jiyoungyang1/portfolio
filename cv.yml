@@ -1,0 +1,213 @@
+# CV Data for Al-Folio Theme
+# Place this file at: _data/cv.yml in your al-folio repository
+
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Ji-Young Yang
+    - name: Email
+      value: jiyoung.jane.yang@gmail.com
+    - name: Phone
+      value: +49 152 0487 5706
+    - name: Location
+      value: Ulm, Germany
+    - name: Languages
+      value: Korean (Native), English (Fluent C1-C2), German (Fluent C1)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Analytical Chemistry
+      institution: University of Ulm, Germany
+      year: 2020 - Present
+      description:
+        - Industrial PhD in collaboration with Boehringer Ingelheim
+        - Focus on protein-cosolute interactions using analytical chemistry and computational techniques
+        - Molecular dynamics simulations of antibody systems
+        - Machine learning for spectroscopic data analysis
+        - <b>Expected completion:</b> 2025
+
+    - title: MSc in Bioinformatics/Molecular Biology
+      institution: University of Applied Sciences Mittweida, Germany
+      year: 2018 - 2020
+      description:
+        - Thesis on machine learning for surfactant degradation profiling
+        - Neural networks for solvation energy prediction
+        - Computational chemistry and data science focus
+
+    - title: BEng in Bioengineering
+      institution: Incheon National University, South Korea
+      year: 2012 - 2017
+      description:
+        - Exchange program in Biochemistry (German) at University Hohenheim (2016-2017)
+        - Exchange program in Business Management (English) at University Hohenheim (2016-2017)
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: PhD Researcher
+      institution: Boehringer Ingelheim & University Ulm
+      year: 2020 - Present
+      location: Biberach, Germany
+      description:
+        - Analytical Development Biologicals, Early Stage Analytics Laboratory
+        - Developed machine learning models for spectral deconvolution and pattern recognition in antibodies and excipients
+        - Set up automated liquid handling and data analysis pipelines using Python
+        - Conducted molecular dynamics simulations of antibody interactions with salt ions and cosolutes
+        - Designed protocols for antibody stress testing, including forced degradation and enzymatic digestion
+        - <b>Publications:</b> 5 peer-reviewed papers, 2 under review
+
+    - title: Master's Thesis & Internship
+      institution: Boehringer Ingelheim
+      year: 2020 (Mar - Oct)
+      location: Biberach, Germany
+      description:
+        - Developed ML model for pattern recognition of surfactant degradation profiles in drug formulations
+        - Created neural network model to predict solvation energy of electrolytes based on atomistic properties
+        - Applied conceptual Density Functional Theory principles
+        - Published findings in Physical Chemistry Chemical Physics
+
+    - title: Exchange Program in Global Data Science
+      institution: Boehringer Ingelheim
+      year: 2024 (Jan - Feb)
+      location: Ingelheim, Germany
+      description:
+        - Global Data Science team, Health Care Affair & Patient Engagement
+        - Project "AI and Data Science for Global Patent Search & Analytics"
+        - Developed AI-driven patent analysis tools
+        - Natural language processing for patent documents
+
+    - title: Co-Lead National Programmes
+      institution: Nucleate Germany
+      year: 2023 (Mar) - 2024 (Jan)
+      description:
+        - Early member contributing to development of Germany into Core Chapter
+        - Global nonprofit organization supporting biotech entrepreneurs
+        - Recruited experts from biotech, intellectual property, and business development
+        - "Activator" mentoring program for future entrepreneurs
+
+    - title: Trading Specialist for Pure Chemicals
+      institution: Samchun Pure Chemical Co. Ltd
+      year: 2018 (Mar - Sep)
+      location: Seoul, South Korea
+      description:
+        - Managed import/export control across Europe, USA, Japan, and India
+        - Primary customer contact and logistics coordinator
+        - Negotiated freight costs and adjusted pricing strategies
+        - Ensured customs clearance and compliance with international regulations including K-REACH
+
+- title: Key Achievements
+  type: nested_list
+  contents:
+    - title: Advanced Protein Characterization and Molecular Interaction Investigation
+      items:
+        - Applied analytical chemistry and MD simulations to uncover mechanistic insights
+        - Protein-cosolute interactions supporting data-driven drug formulation strategies
+        - Multi-microsecond simulations on HPC clusters
+        - Published multiple high-impact papers in leading journals
+
+    - title: Application of AI-Driven Analytics
+      items:
+        - Developed ML models for spectral protein characterization
+        - Surfactant degradation profiling improving formulation stability
+        - Neural networks for solvation energy prediction using conceptual DFT
+        - Pattern recognition in complex biological and chemical systems
+
+    - title: Automated High-Throughput Workflows
+      items:
+        - Designed Python-based liquid handling control systems
+        - Automated data analysis pipelines optimizing experimental efficiency
+        - Reduced manual workload by 80% and increased reproducibility
+        - Real-time data processing and quality control
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming & Data Science
+      items:
+        - "Python: PyTorch, scikit-learn, pandas, numpy, RDKit, MDAnalysis"
+        - "R: ggplot2, dplyr, Bioconductor, statistical analysis"
+        - "SQL: Database queries, data extraction and transformation"
+        - "HPC: Bash scripting, Slurm batch systems, parallel computing"
+        - "Cloud: Databricks, Streamlit, Docker (basics)"
+
+    - title: Molecular Dynamics Simulation
+      items:
+        - "GROMACS: Expert - all-atom simulations, free energy calculations"
+        - "NAMD: Advanced - large-scale biomolecular simulations, GPU acceleration"
+        - "OpenMM: Intermediate - Python-scriptable MD, custom force fields"
+        - "Analysis: MDAnalysis, VMD, PyMOL, Chimera"
+        - "Applications: Protein-protein interactions, solvation thermodynamics"
+
+    - title: Machine Learning
+      items:
+        - "Supervised Learning: Regression, classification, neural networks"
+        - "Deep Learning: Feedforward networks, CNNs, attention mechanisms"
+        - "Frameworks: PyTorch (primary), scikit-learn, TensorFlow (basic)"
+        - "Model Evaluation: Cross-validation, hyperparameter tuning, SHAP values"
+        - "Applications: Molecular property prediction, spectral analysis"
+
+    - title: Laboratory Techniques
+      items:
+        - "Spectroscopy: UV/Vis, Circular Dichroism (CD), IR, Fluorescence"
+        - "Calorimetry: DSC, nanoDSF for thermal stability analysis"
+        - "Light Scattering: DLS for aggregation and particle size"
+        - "Chromatography: UPLC-CAD for surfactant and excipient analysis"
+        - "Protein Characterization: Stability testing, structural analysis"
+
+    - title: Software & Tools
+      items:
+        - "Industrial Analytics: SIMCA, Spotfire, MS Office (Excel VBA)"
+        - "Version Control: Git, GitHub, Bitbucket"
+        - "Documentation: Jupyter, Markdown, LaTeX"
+        - "Visualization: matplotlib, seaborn, Plotly, Origin"
+
+- title: Awards & Recognition
+  type: time_table
+  contents:
+    - year: 2021
+      items:
+        - <b>BI OPEN Global Data Science Challenge - Engagement Individual Award</b>
+        - Project Lung Acoustic Signal Detection
+        - Recognized for outstanding contribution to global data science challenge
+
+- title: Publications
+  type: list
+  contents:
+    - <b>5 peer-reviewed publications</b> in leading journals (Phys. Chem. Chem. Phys., J. Phys. Chem. B, ACS Omega)
+    - <b>2 papers under review</b> (1 invited review in Applied Physics Review)
+    - <b>First author</b> on 4 publications
+    - <b>International collaborations</b> with researchers in Germany, Australia, and USA
+
+- title: Conference Presentations
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - <b>Poster Presentation</b> - Discover BMB, Seattle, USA (ASBMB)
+        - <b>Oral Presentation</b> - DPG Frühjahrstagung, Dresden, Germany
+
+- title: Research Interests
+  type: list
+  contents:
+    - <b>Innovative Drug Discovery and Development</b> Understanding complex drug behaviors and optimizing drug discovery through advanced computational methods and data-driven approaches
+    - <b>Molecular Simulations:</b> Protein-ligand interactions, antibody stability, formulation optimization
+    - <b>Machine Learning in Chemistry:</b> Predictive modeling, molecular property prediction, spectral analysis
+    - <b>Data-Driven Formulation:</b> Integration of AI in pharmaceutical R&D workflows
+    - <b>Computational Chemistry:</b> Quantum chemistry, molecular mechanics, multi-scale modeling
+
+- title: Professional Memberships
+  type: list
+  contents:
+    - American Society for Biochemistry and Molecular Biology (ASBMB)
+    - Deutsche Physikalische Gesellschaft (German Physical Society)
+    - Nucleate Germany (Core Chapter Development)
+
+- title: Additional Information
+  type: list
+  contents:
+    - <b>Availability:</b> Completing PhD, available for full-time positions from 2025
+    - <b>Work Authorization:</b> Authorized to work in Germany and EU
+    - <b>International Experience:</b> South Korea, Germany, research collaborations with Australia and USA
+    - <b>Open to:</b> Research positions, data science roles, pharmaceutical/biotech industry, academic positions

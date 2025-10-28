@@ -1,0 +1,52 @@
+# Site settings
+title: Ji-Young Yang
+email: jiyoung.jane.yang@gmail.com
+description: >-
+  PhD candidate specializing in molecular dynamics simulations, 
+  advanced spectroscopic data analysis, and AI-driven drug discovery
+baseurl: "" # empty for local preview and user site
+url: "https://jiyoungyang1.github.io" # GitHub Pages user site
+
+# Build settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Research
+    url: /research
+  - title: Publications
+    url: /publications
+  - title: Skills
+    url: /skills
+  - title: Contact
+    url: /contact
+
+# Author information
+author:
+  name: Ji-Young Yang
+  bio: PhD Candidate in Analytical Chemistry | Data Science & Computational Drug Discovery
+  location: Ulm, Germany
+  linkedin: your-linkedin-username
+  github: jiyoungyang1
+  email: jiyoung.jane.yang@gmail.com
+
+# Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - README.md
