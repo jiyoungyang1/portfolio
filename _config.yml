@@ -35,6 +35,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-remote-theme
   - jemoji
+  - jekyll-scholar
 
 # Author information
 author:
@@ -44,6 +45,9 @@ author:
   bio: Computational drug discovery | Molecular dynamics | Data science
   location: Ulm, Germany
   
+# Contact information
+email: ji-young.yang@uni-ulm.de
+
 # Social integration
 github_username: jiyoungyang1
 linkedin_username: ji-young-y-28a828142
@@ -79,15 +83,15 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
-# Bibliography (commented out - using manual publications.md instead)
-# scholar:
-#   style: apa
-#   locale: en
-#   source: /_bibliography/
-#   bibliography: papers.bib
-#   bibliography_template: bib
-#   replace_strings: true
-#   bibtex_filters:
+# Bibliography
+scholar:
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  replace_strings: true
+  bibtex_filters:
 
 # Navigation
 navbar_fixed: true

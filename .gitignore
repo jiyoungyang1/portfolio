@@ -27,3 +27,7 @@ Thumbs.db
 # Temporary files
 tmp/
 temp/
+
+# Private documents
+CV_JI YOUNG YANG.pdf
+*.pdf

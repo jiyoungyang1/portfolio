@@ -1,0 +1,197 @@
+---
+layout: default
+---
+
+<div class="wrapper-with-sidebar">
+  <aside class="sidebar">
+    <div class="profile-section">
+      {% if site.author.image %}
+      <img src="{{ site.baseurl }}/assets/img/{{ site.author.image }}" alt="{{ site.author.name }}" class="profile-pic">
+      {% endif %}
+
+      <h3>{{ site.author.name }}</h3>
+      <p class="position">{{ site.author.position }}</p>
+      <p class="institution">{{ site.author.institution }}</p>
+    </div>
+
+    <div class="contact-section">
+      <h4>Contact</h4>
+      <ul class="contact-list">
+        {% if site.email %}
+        <li>
+          <a href="mailto:{{ site.email }}">
+            <svg class="icon" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/></svg>
+            {{ site.email }}
+          </a>
+        </li>
+        {% endif %}
+
+        {% if site.author.location %}
+        <li>
+          <svg class="icon" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+          {{ site.author.location }}
+        </li>
+        {% endif %}
+      </ul>
+
+      <div class="social-links">
+        {% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}" target="_blank" title="GitHub">
+          <svg class="icon" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
+        {% endif %}
+
+        {% if site.linkedin_username %}
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn">
+          <svg class="icon" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>
+        </a>
+        {% endif %}
+
+        {% if site.scholar_userid %}
+        <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar">
+          <svg class="icon" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM5.68 6.98c0-.455.145-.89.42-1.26.275-.37.65-.66 1.085-.845.435-.185.915-.275 1.395-.26 1.095.035 2.01.725 2.325 1.74a2.73 2.73 0 0 1-1.005 2.76c-.425.35-.94.59-1.485.69a2.814 2.814 0 0 1-1.65-.18c-.525-.21-.965-.57-1.26-1.04a2.677 2.677 0 0 1-.425-1.445l-.4.005v-.165zm2.42 3.155c.745 0 1.485.22 2.09.625.605.405 1.02 1.01 1.15 1.69.13.68-.015 1.38-.41 1.955-.395.575-.98.99-1.65 1.165-.67.175-1.375.085-1.98-.255-.605-.34-1.03-.89-1.19-1.545-.16-.655-.045-1.345.325-1.935.37-.59.945-.99 1.61-1.12.33-.065.67-.08 1.055-.08z"/></svg>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </aside>
+
+  <main class="content-with-sidebar">
+    {{ content }}
+  </main>
+</div>
+
+<style>
+.wrapper-with-sidebar {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.sidebar {
+  flex: 0 0 280px;
+  position: sticky;
+  top: 2rem;
+  height: fit-content;
+}
+
+.profile-section {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #0366d6;
+}
+
+.profile-section h3 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  color: #24292e;
+}
+
+.position {
+  font-size: 0.95rem;
+  color: #586069;
+  margin: 0.25rem 0;
+}
+
+.institution {
+  font-size: 0.9rem;
+  color: #6a737d;
+  margin: 0.25rem 0;
+}
+
+.contact-section h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #24292e;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.contact-list li {
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #586069;
+}
+
+.contact-list a {
+  color: #0366d6;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  word-break: break-all;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.social-links a {
+  color: #586069;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: #0366d6;
+}
+
+.social-links .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.content-with-sidebar {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .wrapper-with-sidebar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .sidebar {
+    position: static;
+    flex: none;
+    width: 100%;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+}
+</style>

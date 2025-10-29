@@ -1,88 +1,73 @@
 ---
-layout: default
+layout: sidebar
 title: Publications
+permalink: /publications/
 ---
 
-# Publications
+<style>
+.bibliography {
+  list-style: none;
+  padding: 0;
+}
 
-## Peer-reviewed Published Full Articles
+.bibliography li {
+  position: relative;
+  margin-bottom: 2em;
+  padding-right: 180px;
+  min-height: 150px;
+}
 
-### 1. An Expression for the Diffusion Interaction Parameter for Pharmaceutical Formulations: Insights from Kirkwood-Buff Theory
+.bibliography .preview {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 160px;
+  height: auto;
+}
 
-![Abstract](/assets/img/abstract_kD.gif)
+.bibliography .preview img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
-Ji Young Yang, Jens Smiatek
-*Phys. Chem. Chem. Phys.*, 2025
+.bibliography .title {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
 
----
+.bibliography .author {
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
 
-### 2. Multidomain Protein−Urea Interactions: Differences in Binding Behavior Lead to Different Destabilization Tendencies for Monoclonal Antibodies
+.bibliography .periodical {
+  margin-bottom: 0.5em;
+}
 
-![Abstract](/assets/img/abstract_multidomain.webp)
+.bibliography .links a {
+  margin-right: 1em;
+  color: #0366d6;
+  text-decoration: none;
+}
 
-Ji Young Yang, Oliver Burkert, Boris Mizaikoff, Jens Smiatek
-*J. Phys. Chem. B* 2024, 128, 42, 10408–10416
+.bibliography .links a:hover {
+  text-decoration: underline;
+}
 
----
+@media (max-width: 768px) {
+  .bibliography li {
+    padding-right: 0;
+    min-height: auto;
+  }
 
-### 3. Impact of Urea on Monoclonal Antibodies: Multiple Destabilization and Aggregation Effects for Therapeutic Immunoglobulin G Proteins
+  .bibliography .preview {
+    position: static;
+    width: 100%;
+    margin-top: 1em;
+  }
+}
+</style>
 
-![Abstract](/assets/img/abstract_impact_urea.gif)
-
-Ji Young Yang, Oliver Burkert, Boris Mizaikoff, Jens Smiatek
-*ACS Omega* 2024, 9, 5, 5517–5522
-
----
-
-### 4. Combination of Explainable Machine Learning and Conceptual Density Functional Theory: Applications for the Study of Key Solvation Mechanisms
-
-I-Ting Ho, Milena Matysik, Liliana Montano Herrera, Jiyoung Yang, Ralph Joachim Guderlei, Michael Laussegger, Bernhard Schrantz, Regine Hammer, Ramón Alain Miranda-Quintana and Jens Smiatek
-*Phys. Chem. Chem. Phys.*, 2022, 24, 28314-28324
-
----
-
-### 5. Artificial neural networks for the prediction of solvation energies based on experimental and computational data
-
-![Abstract](/assets/img/abstract_artificial.jpeg)
-
-Jiyoung Yang, Matthias J. Knape, Oliver Burkert, Virginia Mazzini, Alexander Jung, Vincent S. J. Craig, Ramón Alain Miranda-Quintana, Erich Bluhmki and Jens Smiatek
-*Phys. Chem. Chem. Phys.*, 2020, 22, 24359-24364
-
----
-
-## Under Review
-
-### 1. Role of L-Arginine on multi-domain protein IgG conformational multi-states change and aggregation during thermal denaturation
-
-Ji Young Yang, Oliver Burkert, Boris Mizaikoff, Jens Smiatek
-
----
-
-### 2. Computational Simulations of Antibodies in Solution: Study of Physicochemical Properties and Interactions with Co-Solutes
-
-Ji Young Yang, Boris Mizaikoff, Jens Smiatek
-[Invited Review] *Applied Physics Review*, AIP Publishing
-
----
-
-## Conference Presentations
-
-**Poster Presentation**
-Discover BMB
-March 2023, Seattle, USA
-Abstract 203 ASBMB (American Society for Biochemistry and Molecular Biology)
-
-**Oral Presentation**
-DPG Frühjahrstagung
-March 2023, Dresden, Germany
-Biophysics Chapter 17 Protein Structure and Dynamics 17.8 Talk
-DPG (Deutsche Physikalische Gesellschaft) Spring Conference
-
----
-
-## Awards
-
-**Engagement Individual Award**
-BI OPEN Global Data Science Challenge
-June 2021
-Boehringer Ingelheim OPEN global data science challenge for Lung Acoustic Signal Detection
+{% bibliography %}

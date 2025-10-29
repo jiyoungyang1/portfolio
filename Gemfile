@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate-v2"
   gem "jekyll-remote-theme"
   gem "jemoji"
+  gem "jekyll-scholar"
   gem "jekyll-get-json"
   gem "jekyll-imagemagick"
   gem "jekyll-minifier"
